@@ -1,7 +1,7 @@
 .form {
   margin: 1rem 0;
   height: 19rem;
-  overflow: auto;
+  overflow: scroll;
 }
 
 .control {
@@ -26,6 +26,7 @@
   display: flex;
   justify-content: flex-end;
   gap: 1rem;
+ 
 }
 
 .actions button {
@@ -36,6 +37,7 @@
   border: none;
   border-radius: 25px;
   padding: 0.5rem 2rem; 
+  margin-bottom: 80px;
 }
 
 .actions button:hover,
@@ -61,8 +63,4 @@
 .invalid input {
   border-color: #aa0b20;
   background-color: #ffeff1;
-  }
-  
-.invalid p {
-  color:rgb(124, 36, 14)
-  }
+}
